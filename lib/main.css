@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1:100');
+
+div {
+    font-family: "Gothic A1", Thin;
+    vertical-align: middle;
+}
+
+.container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.title1 {
+    font-size: 70px;
+    word-break: keep-all;
+}
+.title2 {
+    font-size: 40px;
+    word-break: keep-all;
+    padding-top: 20px;
+}
+
+.countdown{
+    font-size: 100px;
+    padding-top: 40px;
+    vertical-align: middle;
+}
+
+@media (max-width: 600px) {
+
+.title1 {
+    font-size: 40px;
+    word-break: keep-all;
+}
+.title2 {
+    font-size: 30px;
+    word-break: keep-all;
+    padding-top: 10px;
+}
+.countdown{
+    padding-top: 20px;
+    font-size: 60px;
+}
+
+}
